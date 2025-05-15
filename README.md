@@ -1,6 +1,11 @@
+
 # YOLOv8 Custom Object Detection Project
 
 This repository contains all code, configuration, and data structure for training a custom object detection model using YOLOv8 (Ultralytics) with PyTorch.
+
+## Summary
+
+We used the YOLOv8 object detection framework with a custom dataset containing three classes: scratch, dent, and broken_light. The dataset was split into training and validation sets, and labels were formatted in the YOLO standard. We applied extensive data augmentation using YOLOv8’s built-in features to improve generalization, given the limited dataset size. The model was trained using the lightweight yolov8n.pt backbone for efficiency. Evaluation metrics (precision, recall, mAP) were reported for each class. We identified class imbalance and limited validation data as key challenges, and proposed future work including data expansion and hyperparameter tuning to further improve accuracy.
 
 ## Directory Structure
 
@@ -126,3 +131,5 @@ https://pytorch.org/
 
 Annotation tool
 labelImg(Python pip) - https://github.com/HumanSignal/labelImg
+
+
