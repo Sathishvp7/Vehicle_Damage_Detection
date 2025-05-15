@@ -125,4 +125,4 @@ PyTorch
 https://pytorch.org/
 
 Annotation tool
-labelImg(Python pip)
+labelImg(Python pip) - https://github.com/HumanSignal/labelImg
