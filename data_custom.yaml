@@ -1,0 +1,4 @@
+train: C:\Users\sathish.anantharaj\Documents\Projects\yolo_8_detection\train
+val: C:\Users\sathish.anantharaj\Documents\Projects\yolo_8_detection\val
+nc: 3
+names: ["scratch","dent","broken_light"]

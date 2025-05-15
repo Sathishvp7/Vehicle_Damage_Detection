@@ -1,0 +1,6 @@
+ultralytics>=8.0.0
+torch>=1.8.0
+fastapi
+uvicorn
+pillow
+python-multipart

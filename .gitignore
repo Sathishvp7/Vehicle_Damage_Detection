@@ -1,0 +1,13 @@
+# Ignore all runs and checkpoints
+runs/
+*.pt
+*.pth
+__pycache__/
+.env
+.DS_Store
+*.log
+*.tmp
+# Ignore data cache (if any)
+*.cache
+# Ignore OS-specific files
+Thumbs.db
